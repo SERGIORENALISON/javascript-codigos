@@ -4,6 +4,10 @@ frutas.forEach((fruta, index) => {
      console.log (fruta, index)
 })
 
-frutas.map((frutas) =>{
-    console.log(frutas.startsWith("u"))
+frutas.map((fruta) =>{
+    console.log(fruta.startsWith("u"))
 })
+const frutasComM =  frutas.filter((fruta) => {
+    return fruta.startsWith ("m")
+})
+console.log(frutasComM)

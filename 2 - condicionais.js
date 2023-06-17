@@ -18,5 +18,4 @@ if (media >= 7) {
     console.log("Recuperação!")
 } else {
     console.log("Reprovado!")
-
 }
